@@ -67,7 +67,7 @@ const AccordionDetail = ({ detail, role, name }: Props) => {
       await navigator.clipboard.writeText(detail);
       alert("클립보드에 복사되었습니다");
     } catch(err) {
-      console.error("실패");
+      console.error("실패", err);
     }
   }
 
