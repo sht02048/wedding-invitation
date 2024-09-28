@@ -6,8 +6,8 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <div className="bg-slate-800 w-screen h-screen flex justify-center items-center">
-      <div className="sm:w-1/4 flex flex-col gap-32">
+    <div className="flex justify-center items-center">
+      <div className="sm:w-1/4 w-screen h-screen flex flex-col gap-32 text-center text-[#585858">
         {children}
       </div>
     </div>

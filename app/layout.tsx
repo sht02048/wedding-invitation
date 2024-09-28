@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={myFont.className}>
+      <body className={`bg-[#f9f9f9] py-10 px-2 ${myFont.className}`}>
         <Layout>
           {children}
         </Layout>
