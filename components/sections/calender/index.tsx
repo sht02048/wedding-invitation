@@ -1,10 +1,10 @@
+import SectionTitle from "@/components/ui/sectionTitle";
 import Body from "./body";
-import Header from "./header";
 
 export default function Calender() {
   return (
-    <div className="flex flex-col text-center text-white gap-6">
-      <Header />
+    <div>
+      <SectionTitle subTitle="calendar" mainTitle="민석 다은 결혼 예배" />
       <Body />
     </div>
   )

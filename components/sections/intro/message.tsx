@@ -2,7 +2,7 @@ import Paragraph from "./paragraph";
 
 export default function Message() {
   return (
-    <div className="flex flex-col gap-8 px-10">
+    <div className="flex flex-col gap-8">
         <p>2016년 7월, 서로가 보석처럼 찾아왔습니다.</p>
       <Paragraph>
         <p>다은이와 함께하며 내 것을 양보하고</p>

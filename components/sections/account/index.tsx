@@ -3,7 +3,7 @@ import Body from "./body";
 
 export default function Account() {
   return (
-    <div className="text-white text-center">
+    <div>
       <Header />
       <Body />
     </div>
